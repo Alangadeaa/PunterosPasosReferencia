@@ -1,8 +1,9 @@
 Punteros y paso por referencia
-1)Ingresar por teclado 5 números cualesquiera y luego por medio de una función con punteros ordenarlos.
+1) Ingresar por teclado 5 números cualesquiera y luego por medio de una función con punteros ordenarlos.
 
-2)Quedando el menor en la variable a, el segundo menor en la b y así sucesivamente
+2) Quedando el menor en la variable a, el segundo menor en la b y así sucesivamente
 Decir que devuelve el siguiente programa, comentar cada instrucción.
+
 #include <stdio.h>
 int main() {
 	int x, *y;
@@ -12,7 +13,8 @@ int main() {
 	return 0;
 }
  
-3)Decir que devuelve el siguiente programa, mencionar si hay algo extraño en el mismo y comentar cada instrucción.
+3) Decir que devuelve el siguiente programa, mencionar si hay algo extraño en el mismo y comentar cada instrucción.
+   
 #include <stdio.h>
 void carga (int n, int Vector[]);
 void imprimir (int n, int Vector[]);
@@ -43,7 +45,8 @@ void imprimir (int n, int Vector[]){
            	 printf("\n");
 }
 
-4)Decir que devuelve el siguiente programa, mencionar si hay algo extraño en el mismo y comentar cada instrucción.
+4) Decir que devuelve el siguiente programa, mencionar si hay algo extraño en el mismo y comentar cada instrucción.
+   
 #include <stdio.h>
 void carga (int n, int Vector[]);
 void imprimir (int n, int Vector[]);
@@ -89,7 +92,7 @@ void ordenar (int n, int Vector[]){
            	 printf("\n");
 }
 
-5)Decir que devuelve el siguiente programa, mencionar si hay algo extraño en el mismo y comentar cada instrucción.
+5) Decir que devuelve el siguiente programa, mencionar si hay algo extraño en el mismo y comentar cada instrucción.
  
 #define N 10
 #include <stdio.h>
@@ -143,4 +146,5 @@ void multiplicar (int A[N][N], int B[N][N], int C[N][N], int m, int n, int p) {
                                                                           	 C[i][k] = C[i][k] + A[i][j]*B[j][k];
 }
 
-6)Realizar un programa que tenga las siguientes funciones sobre matrices carga, escritura, suma, multiplicación entre matrices, determinante, transpuesta. Realizar un menú acorde al mismo (que sea recurrente y me permita realizar otras acciones)
+
+6) Realizar un programa que tenga las siguientes funciones sobre matrices carga, escritura, suma, multiplicación entre matrices, determinante, transpuesta. Realizar un menú acorde al mismo (que sea recurrente y me permita realizar otras acciones)
